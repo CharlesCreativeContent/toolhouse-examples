@@ -1,5 +1,5 @@
 
-# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Toolhouse Examples
+# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building a Customer Support Bot with Anthropic and Toolhouse
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 
 You can start this journey with only 3 lines of code.
