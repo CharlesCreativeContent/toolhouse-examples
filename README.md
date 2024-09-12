@@ -45,13 +45,14 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 | /test     | A test route to check the integration of the Toolhouse SDK.                                   |
 
 
-### Understanding Toolhouse SDK
+## Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be instructed to send emails or retrieve customer support information.
 
-### Project Structure
+## Project Structure
 **app.py**: This is the main file that sets up the FastAPI app, configures middleware, defines routes, and integrates Toolhouse with OpenAI's GPT models.
 
 **SystemPrompts.py:** This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
+
 **demo.html:** This file contains an example of the rag and search tools on a web page
 
 ## How Toolhouse helps
@@ -59,7 +60,7 @@ Today's LLM technology doesn't run any code itself. Instead, you can run code ex
 
 Writing good tools is a long and time-consuming exercise which requires a lot of efforts. You have to write definitions of inputs and outputs, robust error handling, handle the infrastructure to host the tool and most importantly effective communication with the model. Every model implements function calling slightly differently. This causes challenges in schema design, logic implementation, and interaction management.
 
-### ✨ Using Toolhouse -
+## ✨ Using Toolhouse -
 You can use tools that have been written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse is designed to help you manage your functions across each model.
 
 ## Get help
