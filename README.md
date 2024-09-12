@@ -58,7 +58,7 @@ Today's LLM technology doesn't run any code itself. Instead, you can run code ex
 
 Writing good tools is a long and time-consuming exercise which requires a lot of efforts. You have to write definitions of inputs and outputs, robust error handling, handle the infrastructure to host the tool and most importantly effective communication with the model. Every model implements function calling slightly differently. This causes challenges in schema design, logic implementation, and interaction management.
 
-###✨ Using Toolhouse -
+### ✨ Using Toolhouse -
 You can use tools that have been written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse is designed to help you manage your functions across each model.
 
 ## Get help
