@@ -3,41 +3,52 @@
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 You can start this journey with only 3 lines of code.
 
-In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create agents that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
-
-## 🛠️ Installation 
-
-Ensure that you have exported into your environment both Toolhouse and OpenAI API Keys.
-```
-export OPENAI_KEY="your_openai_api_key"
-export TOOLHOUSE_BEARER_TOKEN="your_toolhouse_bearer_token"
-```
-
-Now clone the repo:
+In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
+Step 1: Clone the Repository
 ```bash
-git clone https://github.com/toolhouseai/toolhouse-examples.git
-cd toolhouse-examples
+git clone https://github.com/CharlesCreativeContent/toolhouse-example.git
+cd toolhouse-example
 ```
 
-### Install the required dependencies
-
-#### With virtual environment (Preferred)
-
+Step 2: Set Up Environment Variables
+Create a .env file in the root directory of the project and add your Toolhouse and OpenAI API keys:
 ```bash
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+TOOLHOUSE_API_KEY=your_toolhouse_api_key
+OPENAI_API_KEY=your_openai_api_key
 ```
 
-#### Without virtual env
+Step 3: Install Dependencies
+Make sure to install the required dependencies by running:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt4
 ```
 
-Start the app:
+Step 4: Run the Application
+Once all dependencies are installed, you can start the server with:
+
 ```bash
 python app.py
 ```
+
+The server will be running at http://127.0.0.1:8000, and you can view the API documentation at http://127.0.0.1:8000/docs.
+
+Step 5: Test the API
+The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The following endpoints are available:
+
+Endpoint	Method	Description
+/pets	POST	Returns custom pet care advice based on the input message.
+/blog	POST	Generates a first draft of a research blog post including embedded links.
+/customer	POST	Provides customer service answers, adapting to open and closing hours.
+/twitter	POST	Returns details about Twitter users and sends emails using hunter.io API.
+/test	POST	A test route to check the integration of the Toolhouse SDK.
+
+Understanding Toolhouse SDK
+Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be instructed to send emails or retrieve customer support information.
+
+Project Structure
+app.py: This is the main file that sets up the FastAPI app, configures middleware, defines routes, and integrates Toolhouse with OpenAI's GPT models.
+SystemPrompts.py: This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
+demo.html: This file contains an example of the rag and search tools on a web page
 
 ## Why build AI Agents
 There is a growing interest in creating AI agents - powered by LLMs and tools. The main goal of an AI agent is to complete a task a user gives it. This task might require the agent to perform multiple steps autonomously or with little user intervention. To complete these steps, the LLM powering the agent will require to use function calls (a.k.a tool usage) to interact with other  software, for example by calling REST APIs.
