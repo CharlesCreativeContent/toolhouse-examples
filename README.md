@@ -1,6 +1,7 @@
 
 # <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Toolhouse Examples
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
+
 You can start this journey with only 3 lines of code.
 
 In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
