@@ -6,6 +6,8 @@ You can start this journey with only 3 lines of code.
 
 In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
 
+Feel free to check out the [video](https://www.canva.com/design/DAGQlTTAn1U/EF1oa2jYMTZAl7F3N-djuQ/view?utm_content=DAGQlTTAn1U&utm_campaign=designshare&utm_medium=link&utm_source=editor) summarizing this repo.
+
 ## Step 1: Clone the Repository
 ```bash
 git clone https://github.com/CharlesCreativeContent/toolhouse-example.git
@@ -34,7 +36,7 @@ python app.py
 
 The server will be running and you can view the API documentation at http://127.0.0.1:8000.
 
-You can also also open the 'demo.html' for an example Veterinary Clinic Application using the /pets Endpoint.
+You can also also open the '**demo.html**' for an example Veterinary Clinic Application using the /pets Endpoint.
 
 ## Step 5: Test the API
 The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The following endpoints are available:
@@ -49,7 +51,7 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 
 
 ## Understanding Toolhouse SDK
-Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be instructed to send emails or retrieve customer support information.
+Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be able to send emails or retrieve customer support information by addding a tool in toolhouse instead of updating your code.
 
 ## Project Structure
 **app.py**: This is the main file that sets up the FastAPI app, configures middleware, defines routes, and integrates Toolhouse with OpenAI's GPT models.
@@ -59,7 +61,7 @@ Toolhouse acts as an orchestration layer between the GPT model and various tools
 **demo.html:** This file contains an example of the rag and search tools on a web page, for a Veterinary Clinic
 
 ## How Toolhouse helps
-Today's LLM technology doesn't need to run any code itself. Instead, you can run code externally. Toolhouse runs the code through the tool chosen by the LLM. The Tool responds with more context, and the LLM uses that to provide a more targeted generation, but also a long list of new capabilities.
+Today's LLM technology doesn't need to run any code itself. Instead, you can run code externally. Get response with more context on what tools the LLM should use in your toolhouse,  a function to run those tools, and the LLM uses that to provide a more targeted generation, but also a long list of new capabilities.
 
 Writing good tools is a long and time-consuming exercise which requires a lot of efforts. You have to write definitions of inputs and outputs, robust error handling, handle the infrastructure to host the tool and most importantly effective communication with the model. Every model implements function calling slightly differently. This causes challenges in schema design, logic implementation, and interaction management.
 
