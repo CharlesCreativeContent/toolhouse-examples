@@ -21,7 +21,7 @@ OPENAI_API_KEY=your_openai_api_key
 ## Step 3: Install Dependencies
 Make sure to install the required dependencies by running:
 ```bash
-pip install -r requirements.txt4
+pip install -r requirements.txt
 ```
 
 ## Step 4: Run the Application
@@ -32,13 +32,14 @@ python app.py
 ```
 
 The server will be running and you can view the API documentation at http://127.0.0.1:8000.
+You can also also open the 'demo.html' for an example Veterinary Clinic Application using the /pets Endpoint.
 
 ## Step 5: Test the API
 The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The following endpoints are available:
 
 | Endpoint  | Description                                                                                   |
 |-----------|-----------------------------------------------------------------------------------------------|
-| /pets     | Returns custom pet care advice based on the input message.                                    |
+| /pets     | Answers Pet Owners using an Veterinary Clinics documents and can tell if the Clinic is open   |
 | /blog     | Generates a first draft of a research blog post including embedded links.                     |
 | /customer | Provides customer service answers, adapting to open and closing hours.                        |
 | /twitter  | Returns details about Twitter users and sends emails using hunter.io API.                     |
@@ -53,10 +54,10 @@ Toolhouse acts as an orchestration layer between the GPT model and various tools
 
 **SystemPrompts.py:** This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
 
-**demo.html:** This file contains an example of the rag and search tools on a web page
+**demo.html:** This file contains an example of the rag and search tools on a web page, for a Veterinary Clinic
 
 ## How Toolhouse helps
-Today's LLM technology doesn't run any code itself. Instead, you can run code externally: Toolhouse runs the code through the tool chosen by the LLM and on behalf the LLM. Once the tool has run it then tells the LLM what the output was.
+Today's LLM technology doesn't need to run any code itself. Instead, you can run code externally. Toolhouse runs the code through the tool chosen by the LLM. The Tool responds with more context, and the LLM uses that to provide a more targeted generation, but also a long list of new capabilities.
 
 Writing good tools is a long and time-consuming exercise which requires a lot of efforts. You have to write definitions of inputs and outputs, robust error handling, handle the infrastructure to host the tool and most importantly effective communication with the model. Every model implements function calling slightly differently. This causes challenges in schema design, logic implementation, and interaction management.
 
