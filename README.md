@@ -30,17 +30,19 @@ Once all dependencies are installed, you can start the server with:
 python app.py
 ```
 
-The server will be running at http://127.0.0.1:8000, and you can view the API documentation at http://127.0.0.1:8000/docs.
+The server will be running and you can view the API documentation at http://127.0.0.1:8000.
 
 Step 5: Test the API
 The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The following endpoints are available:
 
-Endpoint	Method	Description
-/pets	POST	Returns custom pet care advice based on the input message.
-/blog	POST	Generates a first draft of a research blog post including embedded links.
-/customer	POST	Provides customer service answers, adapting to open and closing hours.
-/twitter	POST	Returns details about Twitter users and sends emails using hunter.io API.
-/test	POST	A test route to check the integration of the Toolhouse SDK.
+| Endpoint  | Description                                                                                   |
+|-----------|-----------------------------------------------------------------------------------------------|
+| /pets     | Returns custom pet care advice based on the input message.                                    |
+| /blog     | Generates a first draft of a research blog post including embedded links.                     |
+| /customer | Provides customer service answers, adapting to open and closing hours.                        |
+| /twitter  | Returns details about Twitter users and sends emails using hunter.io API.                     |
+| /test     | A test route to check the integration of the Toolhouse SDK.                                   |
+
 
 Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be instructed to send emails or retrieve customer support information.
@@ -49,10 +51,6 @@ Project Structure
 app.py: This is the main file that sets up the FastAPI app, configures middleware, defines routes, and integrates Toolhouse with OpenAI's GPT models.
 SystemPrompts.py: This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
 demo.html: This file contains an example of the rag and search tools on a web page
-
-## Why build AI Agents
-There is a growing interest in creating AI agents - powered by LLMs and tools. The main goal of an AI agent is to complete a task a user gives it. This task might require the agent to perform multiple steps autonomously or with little user intervention. To complete these steps, the LLM powering the agent will require to use function calls (a.k.a tool usage) to interact with other  software, for example by calling REST APIs.
-Different agents will require different tools to perform their tasks successfully.
 
 ## How Toolhouse helps
 Today's LLM technology doesn't run any code itself. Instead, you can run code externally: Toolhouse runs the code through the tool chosen by the LLM and on behalf the LLM. Once the tool has run it then tells the LLM what the output was.
