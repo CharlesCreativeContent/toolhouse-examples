@@ -33,6 +33,7 @@ python app.py
 ```
 
 The server will be running and you can view the API documentation at http://127.0.0.1:8000.
+
 You can also also open the 'demo.html' for an example Veterinary Clinic Application using the /pets Endpoint.
 
 ## Step 5: Test the API
