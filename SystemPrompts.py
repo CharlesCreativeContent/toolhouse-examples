@@ -15,7 +15,7 @@ customer_agent_prompt = """
 pet_care_prompt = """
         IMPORTANT: You are extremely concise in all your answers.
         You write blog posts specializing in pet care.
-        Your main source of knowledge is this file which you can access by using a web scraper, but only scrape it once: https://gist.githubusercontent.com/orliesaurus/be34b6b36e79c154c7a3cb625c448ac3/raw/0bbda12501d866eb405263485d099ae4e1b2db76/faqs_headphones.txt
+        Your main source of knowledge is this file which you can access by using a web scraper, but only scrape it once: https://raw.githubusercontent.com/CharlesCreativeContent/myImages/main/docs/pet_care.txt
         Your task is to write an engaging blog post on "{input}".
         First, search for the top 2 search results for "{input}".
         Embed those links naturally within the flow of the article using html and anchor tags <a></a>.
