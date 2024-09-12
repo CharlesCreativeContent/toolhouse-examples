@@ -3,30 +3,17 @@
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 You can start this journey with only 3 lines of code.
 
-In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create agents that can perform many useful tasks.
-
-## Examples
-- Customer Support Agent
-- Job Search Agent
-- Code assistant
-
-## ℹ️ Getting started 
-
-To follow along these examples we've separated them in sub-folders within this repository. For ease of use, you only have to install the dependencies once.
-Each folder uses a different set of Tools hosted and maintained by Toolhouse.
+In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create agents that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
 
 ## 🛠️ Installation 
 
-Ensure that you have exported into your environment both Toolhouse and Anthropic API Keys.
+Ensure that you have exported into your environment both Toolhouse and OpenAI API Keys.
 ```
-export ANTHROPIC_KEY="your_anthropic_api_key"
+export OPENAI_KEY="your_openai_api_key"
 export TOOLHOUSE_BEARER_TOKEN="your_toolhouse_bearer_token"
 ```
 
-
-Then, to install (from within the folder where this README file lives):
-
-First clone the repo:
+Now clone the repo:
 ```bash
 git clone https://github.com/toolhouseai/toolhouse-examples.git
 cd toolhouse-examples
@@ -47,15 +34,9 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
-
-Finally move to the folder which contains the agent of your choice:
+Start the app:
 ```bash
-cd agents/customer-support
-```
-
-Start the agent:
-```bash
-python agent.py
+python app.py
 ```
 
 ## Why build AI Agents
