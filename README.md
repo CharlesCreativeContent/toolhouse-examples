@@ -49,16 +49,16 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 | /twitter  | Returns details about Twitter users and sends emails using hunter.io API.                     |
 | /test     | A test route to check the integration of the Toolhouse SDK.                                   |
 
-
-## Understanding Toolhouse SDK
-Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be able to send emails or retrieve customer support information by addding a tool in toolhouse instead of updating your code.
-
 ## Project Structure
 **app.py**: This is the main file that sets up the FastAPI and integrates Toolhouse with OpenAI's GPT models.
 
 **SystemPrompts.py:** This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
 
 **demo.html:** This file contains an example of the rag and search tools on a web page, for a Veterinary Clinic
+
+
+## Understanding Toolhouse SDK
+Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be able to send emails or retrieve customer support information by addding a tool in toolhouse instead of updating your code.
 
 ## How Toolhouse helps
 Today's LLM technology doesn't need to run any code itself. Instead, you can run code externally. Get response with more context on what tools the LLM should use in your toolhouse,  a function to run those tools, and the LLM uses that to provide a more targeted generation, but also a long list of new capabilities.
