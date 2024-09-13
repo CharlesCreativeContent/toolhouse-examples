@@ -6,7 +6,7 @@ You can start this journey with only 3 lines of code.
 
 In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
 
-Feel free to check out the [video](https://www.canva.com/design/DAGQlTTAn1U/EF1oa2jYMTZAl7F3N-djuQ/view?utm_content=DAGQlTTAn1U&utm_campaign=designshare&utm_medium=link&utm_source=editor) summarizing this repo.
+Feel free to check out the [video](https://www.canva.com/design/DAGQqtIDxj4/7BgaNzxecu0tVz4zV9AJbQ/watch?utm_content=DAGQqtIDxj4&utm_campaign=designshare&utm_medium=link&utm_source=editor) summarizing this repo.
 
 ## Step 1: Clone the Repository
 ```bash
