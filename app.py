@@ -82,5 +82,4 @@ async def get_email(request: UserInput):
 # Run the app using Uvicorn
 if __name__ == "__main__":
     import uvicorn
-    print("\033[33mSupport AI AGENT:\033[0m", "You can try the app by opening the 'demo.html' file")
     uvicorn.run(app)

@@ -36,9 +36,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-The server will be running, and you can view the API documentation at http://127.0.0.1:8000/docs.
-
-You can also open the demo.html file in your browser to see an example Veterinary Clinic application using the /pets endpoint.
+The server will be running, and you can view the demo application at http://127.0.0.1:8000 and the API documentation at http://127.0.0.1:8000/docs
 
 ### Step 5: Test the API
 The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The available endpoints are:
@@ -55,7 +53,7 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 ### Project Structure
 - **app.py**: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
 - **system_prompts.py**: Contains pre-configured system prompts that shape the behavior of each endpoint.
-- **demo.html**: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
+- **demo.html**: Web page demonstrating the retrieval augmented generation (RAG) and search tools for a veterinary clinic.
 
 ## Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between GPT models and various tools. By integrating the Toolhouse SDK, you enable AI models to perform actions based on decisions made during interactions. For instance, the AI can send emails or retrieve customer support information by adding a tool in Toolhouse without the need to update your code.
@@ -81,5 +79,3 @@ Toolhouse simplifies this process by providing a platform where you can use tool
 Our growing community awaits you! We're looking forward to meeting you. While we focus on subjects relevant to Toolhouse, AI, or code, we're happy to chat about anything.
 
 [Join us on Discord](https://discord.gg/xPvyBxhHtu)
-
-
