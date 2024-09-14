@@ -1,5 +1,5 @@
 
-# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building a AI Clinic Agent using Toolhouse and OpenAI
+# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building an AI Clinic Agent using Toolhouse and OpenAI
 
 <a href="https://shawncharles.com/youtube"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
