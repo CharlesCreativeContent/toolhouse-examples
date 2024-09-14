@@ -44,11 +44,13 @@ You can also open the demo.html file in your browser to see an example Veterinar
 The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The available endpoints are:
 
 ## Endpoint Description
-/pets	Answers pet owners' questions using a veterinary clinic's documents and can tell if the clinic is open.
-/blog	Generates a first draft of a research blog post, including embedded links.
-/customer	Provides customer service answers, adapting to opening and closing hours.
-/twitter	Returns details about Twitter users and sends emails using the Hunter.io API.
-/test	A test route to check the integration of the Toolhouse SDK.
+| Endpoint  | Description                                                                                   |
+|-----------|-----------------------------------------------------------------------------------------------|
+| /pets     | Answers pet owners using an veterinary clinics documents and can tell if the clinic is open   |
+| /blog     | Generates a first draft of a research blog post including embedded links.                     |
+| /customer | Provides customer service answers, adapting to open and closing hours.                        |
+| /twitter  | Returns details about Twitter users and sends emails using hunter.io API.                     |
+| /test     | A test route to check the integration of the Toolhouse SDK.                                   |
 
 ### Project Structure
 - **app.py**: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
