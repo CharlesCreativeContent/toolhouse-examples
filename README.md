@@ -60,19 +60,33 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 **demo.html:** This file contains an example of the rag and search tools on a web page, for a Veterinary Clinic
 
 
-## Understanding Toolhouse SDK
-Toolhouse acts as an orchestration layer between the GPT model and various tools. The integration uses the Toolhouse SDK, which enables actions to be taken based on AI decisions. For instance, the AI can be able to send emails or retrieve customer support information by addding a tool in toolhouse instead of updating your code.
+## Project Structure
+**app.py: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
+**SystemPrompts.py: Contains pre-configured system prompts that shape the behavior of each endpoint.
+**demo.html: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
 
-## How Toolhouse helps
-Today's LLM technology doesn't need to run any code itself. Instead, you can run code externally. Get response with more context on what tools the LLM should use in your toolhouse,  a function to run those tools, and the LLM uses that to provide a more targeted generation, but also a long list of new capabilities.
+##Understanding Toolhouse SDK
+Toolhouse acts as an orchestration layer between GPT models and various tools. By integrating the Toolhouse SDK, you enable AI models to perform actions based on decisions made during interactions. For instance, the AI can send emails or retrieve customer support information by adding a tool in Toolhouse without the need to update your code.
 
-Writing good tools is a long and time-consuming exercise which requires a lot of efforts. You have to write definitions of inputs and outputs, robust error handling, handle the infrastructure to host the tool and most importantly effective communication with the model. Every model implements function calling slightly differently. This causes challenges in schema design, logic implementation, and interaction management.
+### Why Use Toolhouse?
+Building tools for AI agents can be time-consuming and complex. You need to:
 
-## ✨ Using Toolhouse -
-You can use tools that have been written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse is designed to help you manage your functions across each model.
+- Define inputs and outputs.
+- Implement robust error handling.
+- Manage infrastructure to host the tools.
+- Ensure effective communication with the model.
+- Deal with different function-calling implementations across models.
 
-## Get help
-Our growing community awaits you: We're looking forward to meeting you and while we focus on subjects relevant to Toolhouse, AI or code we're happy to chat about anything.
+Toolhouse simplifies this process by providing a platform where you can use tools written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse helps you manage your functions across each model seamlessly.
+
+### Key Benefits
+- Ease of Integration: Start using powerful tools with minimal code changes.
+- Community-Driven: Leverage tools developed by a community of developers.
+- Cross-Compatibility: Works with multiple LLM providers and models.
+- Scalability: Easily add or update tools without modifying your existing codebase.
+
+## Join Our Community
+Our growing community awaits you! We're looking forward to meeting you. While we focus on subjects relevant to Toolhouse, AI, or code, we're happy to chat about anything.
 
 [Join us on Discord](https://discord.gg/xPvyBxhHtu)
 
