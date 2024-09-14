@@ -1,7 +1,7 @@
 
 # <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building a AI Clinic Agent using Toolhouse and OpenAI
 
-
+<a href="https://shawncharles.com/youtube"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 
@@ -11,7 +11,6 @@ In this repo we'll explore some examples of different ways you can leverage our 
 
 Feel free to check out the [video](https://www.canva.com/design/DAGQqtIDxj4/7BgaNzxecu0tVz4zV9AJbQ/watch?utm_content=DAGQqtIDxj4&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
-<a href="https://shawncharles.com/youtube"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 ## Step 1: Clone the Repository
 ```bash
 git clone https://github.com/CharlesCreativeContent/toolhouse-example.git
@@ -73,7 +72,7 @@ Writing good tools is a long and time-consuming exercise which requires a lot of
 You can use tools that have been written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse is designed to help you manage your functions across each model.
 
 ## Get help
-Our growing community awaits you: We're looking forward to meet you and while we focus on subjects relevant to Toolhouse, AI or code we're happy to chat about anything.
+Our growing community awaits you: We're looking forward to meeting you and while we focus on subjects relevant to Toolhouse, AI or code we're happy to chat about anything.
 
 [Join us on Discord](https://discord.gg/xPvyBxhHtu)
 
