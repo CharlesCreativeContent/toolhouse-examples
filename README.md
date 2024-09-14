@@ -1,7 +1,7 @@
 
 # <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building an AI Clinic Agent using Toolhouse and OpenAI
 
-<a href="https://www.canva.com/design/DAGQuHYK3pg/f8ypQ8I63sHM1QIa9cIa0w/edit?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
+<a href="https://www.canva.com/design/DAGQuHYK3pg/ADfxZiNf3ys84vHOvvU2Jw/watch?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 
@@ -9,7 +9,7 @@ You can start this journey with only 3 lines of code.
 
 In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
 
-Feel free to check out the [video](https://www.canva.com/design/DAGQuHYK3pg/f8ypQ8I63sHM1QIa9cIa0w/edit?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Feel free to check out the [video](https://www.canva.com/design/DAGQuHYK3pg/ADfxZiNf3ys84vHOvvU2Jw/watch?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
 ## Step 1: Clone the Repository
 ```bash
