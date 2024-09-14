@@ -72,10 +72,10 @@ Building tools for AI agents can be time-consuming and complex. You need to:
 Toolhouse simplifies this process by providing a platform where you can use tools written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse helps you manage your functions across each model seamlessly.
 
 ### Key Benefits
-- Ease of Integration: Start using powerful tools with minimal code changes.
-- Community-Driven: Leverage tools developed by a community of developers.
-- Cross-Compatibility: Works with multiple LLM providers and models.
-- Scalability: Easily add or update tools without modifying your existing codebase.
+- **Ease of Integration:** Start using powerful tools with minimal code changes.
+- **Community-Driven:** Leverage tools developed by a community of developers.
+- **Cross-Compatibility:** Works with multiple LLM providers and models.
+- **Scalability:** Easily add or update tools without modifying your existing codebase.
 
 ## Join Our Community
 Our growing community awaits you! We're looking forward to meeting you. While we focus on subjects relevant to Toolhouse, AI, or code, we're happy to chat about anything.
