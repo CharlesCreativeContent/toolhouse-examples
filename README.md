@@ -1,13 +1,17 @@
 
-# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building a Customer Support Bot with Anthropic and Toolhouse
+# <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building a AI Clinic Agent using Toolhouse and OpenAI
+
+
+
 Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
 
 You can start this journey with only 3 lines of code.
 
 In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
 
-Feel free to check out the [video](https://www.canva.com/design/DAGQqtIDxj4/7BgaNzxecu0tVz4zV9AJbQ/watch?utm_content=DAGQqtIDxj4&utm_campaign=designshare&utm_medium=link&utm_source=editor) summarizing this repo.
+Feel free to check out the [video](https://www.canva.com/design/DAGQqtIDxj4/7BgaNzxecu0tVz4zV9AJbQ/watch?utm_content=DAGQqtIDxj4&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
+<a href="https://shawncharles.com/youtube"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 ## Step 1: Clone the Repository
 ```bash
 git clone https://github.com/CharlesCreativeContent/toolhouse-example.git
