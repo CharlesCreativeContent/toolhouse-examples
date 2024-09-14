@@ -61,9 +61,9 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 
 
 ## Project Structure
-**app.py: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
-**SystemPrompts.py: Contains pre-configured system prompts that shape the behavior of each endpoint.
-**demo.html: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
+**app.py**: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
+**SystemPrompts.py**: Contains pre-configured system prompts that shape the behavior of each endpoint.
+**demo.html**: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
 
 ##Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between GPT models and various tools. By integrating the Toolhouse SDK, you enable AI models to perform actions based on decisions made during interactions. For instance, the AI can send emails or retrieve customer support information by adding a tool in Toolhouse without the need to update your code.
