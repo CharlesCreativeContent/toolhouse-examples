@@ -3,69 +3,59 @@
 
 <a href="https://www.canva.com/design/DAGQuHYK3pg/ADfxZiNf3ys84vHOvvU2Jw/watch?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
-Toolhouse is a platform that helps developers integrate tools in their projects, to build powerful AI agents. 
+Toolhouse is a platform that enables developers to integrate tools into their projects to build powerful AI agents effortlessly. With Toolhouse, you can leverage pre-built tools and create applications that perform a multitude of useful tasks with minimal code.
 
-You can start this journey with only 3 lines of code.
+You can start this journey with only three lines of code!
 
-In this repo we'll explore some examples of different ways you can leverage our pre-built tools and create applications that can perform many useful tasks. This project also demonstrates how to build an API that integrates Toolhouse SDK and OpenAI's GPT models to create various use cases. It provides endpoints for customer service, blog writing, pet care, and more.
+This repository explores examples of how you can use our pre-built tools to create applications for various use cases, such as customer service, blog writing, pet care, and more. It also demonstrates how to build an API that integrates the Toolhouse SDK with OpenAI's GPT models.
 
-Feel free to check out the [video](https://www.canva.com/design/DAGQuHYK3pg/ADfxZiNf3ys84vHOvvU2Jw/watch?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+Feel free to check out our [demo video](https://www.canva.com/design/DAGQuHYK3pg/ADfxZiNf3ys84vHOvvU2Jw/watch?utm_content=DAGQuHYK3pg&utm_campaign=designshare&utm_medium=link&utm_source=editor) to see Toolhouse in action.
 
-## Step 1: Clone the Repository
+## Getting Started
+### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/CharlesCreativeContent/toolhouse-example.git
 cd toolhouse-example
 ```
 
-## Step 2: Set Up Environment Variables
-Create a .env file in the root directory of the project and add your Toolhouse and OpenAI API keys:
+### Step 2: Set Up Environment Variables
+- Create a .env file in the root directory of the project and add your Toolhouse and OpenAI API keys:
 ```bash
 TOOLHOUSE_API_KEY=your_toolhouse_api_key
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## Step 3: Install Dependencies
-Make sure to install the required dependencies by running:
+### Step 3: Install Dependencies
+- Install the required dependencies by running:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Step 4: Run the Application
-Once all dependencies are installed, you can start the server with:
-
+### Step 4: Run the Application
+- Once all dependencies are installed, you can start the server with:
 ```bash
 python app.py
 ```
+The server will be running, and you can view the API documentation at http://127.0.0.1:8000/docs.
 
-The server will be running and you can view the API documentation at http://127.0.0.1:8000.
+You can also open the demo.html file in your browser to see an example Veterinary Clinic application using the /pets endpoint.
 
-You can also also open the '**demo.html**' for an example Veterinary Clinic Application using the /pets Endpoint.
+### Step 5: Test the API
+The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The available endpoints are:
 
-## Step 5: Test the API
-The FastAPI application includes a Swagger UI that allows you to test the various endpoints. The following endpoints are available:
+## Endpoint Description
+/pets	Answers pet owners' questions using a veterinary clinic's documents and can tell if the clinic is open.
+/blog	Generates a first draft of a research blog post, including embedded links.
+/customer	Provides customer service answers, adapting to opening and closing hours.
+/twitter	Returns details about Twitter users and sends emails using the Hunter.io API.
+/test	A test route to check the integration of the Toolhouse SDK.
 
-| Endpoint  | Description                                                                                   |
-|-----------|-----------------------------------------------------------------------------------------------|
-| /pets     | Answers Pet Owners using an Veterinary Clinics documents and can tell if the Clinic is open   |
-| /blog     | Generates a first draft of a research blog post including embedded links.                     |
-| /customer | Provides customer service answers, adapting to open and closing hours.                        |
-| /twitter  | Returns details about Twitter users and sends emails using hunter.io API.                     |
-| /test     | A test route to check the integration of the Toolhouse SDK.                                   |
+### Project Structure
+- **app.py**: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
+- **SystemPrompts.py**: Contains pre-configured system prompts that shape the behavior of each endpoint.
+- **demo.html**: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
 
-## Project Structure
-**app.py**: This is the main file that sets up the FastAPI and integrates Toolhouse with OpenAI's GPT models.
-
-**SystemPrompts.py:** This file contains pre-configured system prompts that are passed into the API to shape the behavior of each endpoint.
-
-**demo.html:** This file contains an example of the rag and search tools on a web page, for a Veterinary Clinic
-
-
-## Project Structure
-**app.py**: The main file that sets up the FastAPI application and integrates Toolhouse with OpenAI's GPT models.
-**SystemPrompts.py**: Contains pre-configured system prompts that shape the behavior of each endpoint.
-**demo.html**: An example web page demonstrating the retrieval and generation (RAG) and search tools for a Veterinary Clinic.
-
-##Understanding Toolhouse SDK
+## Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between GPT models and various tools. By integrating the Toolhouse SDK, you enable AI models to perform actions based on decisions made during interactions. For instance, the AI can send emails or retrieve customer support information by adding a tool in Toolhouse without the need to update your code.
 
 ### Why Use Toolhouse?
