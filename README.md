@@ -1,7 +1,7 @@
 
 # <img src="https://framerusercontent.com/images/xDisAjh26hdfRjOto5SnUUWvsEQ.svg?scale-down-to=64" width="50" style="position: relative; top: 10px">  Building an AI Clinic Agent using Toolhouse
 
-<a href="https://youtu.be/LwKPnH0198E"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
+<a href="https://shawncharles.com/toolhouse"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/PetGuru.png?raw=true"></a>
 
 Toolhouse is a platform that enables developers to integrate tools into their projects to build powerful AI agents effortlessly. With Toolhouse, you can leverage pre-built tools and create applications that perform a multitude of useful tasks with minimal code.
 
@@ -10,6 +10,8 @@ You can start this journey with only three lines of code!
 This repository explores examples of how you can use our pre-built tools to create applications for various use cases, such as customer service, blog writing, pet care, and more. It also demonstrates how to build an API that integrates the Toolhouse SDK with OpenAI's GPT models.
 
 Feel free to check out our [demo video](https://youtu.be/LwKPnH0198E) to see Toolhouse in action.
+
+<a href="https://youtu.be/LwKPnH0198E"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
 ## Getting Started
 ### Step 1: Clone the Repository
