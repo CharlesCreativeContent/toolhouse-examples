@@ -5,11 +5,7 @@
 
 Toolhouse is a platform that enables developers to integrate tools into their projects to build powerful AI agents effortlessly. With Toolhouse, you can leverage pre-built tools and create applications that perform a multitude of useful tasks with minimal code.
 
-You can start this journey with only three lines of code!
-
-This repository explores examples of how you can use our pre-built tools to create applications for various use cases, such as customer service, blog writing, pet care, and more. It also demonstrates how to build an API that integrates the Toolhouse SDK with OpenAI's GPT models.
-
-Feel free to check out our [demo video](https://youtu.be/LwKPnH0198E) to see Toolhouse in action.
+Feel free to check out the [video](https://youtu.be/LwKPnH0198E) to see Toolhouse in action.
 
 <a href="https://youtu.be/LwKPnH0198E"><img src="https://github.com/CharlesCreativeContent/myImages/blob/main/images/ToolhouseThumbnail.png?raw=true"></a>
 
@@ -60,24 +56,31 @@ The FastAPI application includes a Swagger UI that allows you to test the variou
 ## Understanding Toolhouse SDK
 Toolhouse acts as an orchestration layer between GPT models and various tools. By integrating the Toolhouse SDK, you enable AI models to perform actions based on decisions made during interactions. For instance, the AI can send emails or retrieve customer support information by adding a tool in Toolhouse without the need to update your code.
 
-### Why Use Toolhouse?
-Building tools for AI agents can be time-consuming and complex. You need to:
+## More Projects
 
-- Define inputs and outputs.
-- Implement robust error handling.
-- Manage infrastructure to host the tools.
-- Ensure effective communication with the model.
-- Deal with different function-calling implementations across models.
-
-Toolhouse simplifies this process by providing a platform where you can use tools written and maintained by developers like you. These tools work with any LLM that supports tool use. As most developers use more than one LLM provider in their deployments, Toolhouse helps you manage your functions across each model seamlessly.
-
-### Key Benefits
-- **Ease of Integration:** Start using powerful tools with minimal code changes.
-- **Community-Driven:** Leverage tools developed by a community of developers.
-- **Cross-Compatibility:** Works with multiple LLM providers and models.
-- **Scalability:** Easily add or update tools without modifying your existing codebase.
-
-## Join Our Community
-Our growing community awaits you! We're looking forward to meeting you. While we focus on subjects relevant to Toolhouse, AI, or code, we're happy to chat about anything.
-
-[Join us on Discord](https://discord.gg/xPvyBxhHtu)
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">Runware Pokémon Generator</a>
+        <br />
+      <a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">
+            <img src="https://github.com/CharlesCreativeContent/runware-pokemon-generator/raw/main/public/runware.gif?raw=true" width="100%"  alt="Runware Pokémon Generator"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/CoinGecko-Thesys-MCP">CoinGecko-Thesys-MCP</a>
+      <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/CoinGecko-Thesys-MCP">
+          <img src="https://camo.githubusercontent.com/0dd2f60eb61954fb96f89c3c31fe17bdd70d5eede3adf617adca4db22e937638/68747470733a2f2f736861776e696d616765732e6e65746c6966792e6170702f696d616765732f436f696e4765636b6f2e676966" width="100%" alt="CoinGecko-Thesys-MCP"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">Travel Web-Application</a>
+        <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">
+          <img src="https://github.com/CharlesCreativeContent/CharlesCreativeContent/raw/main/images/gif1.gif?raw=true" width="100%" alt="Portfolio"/>
+        </a>
+    </td>
+  </tr>
+</table>
